@@ -107,6 +107,7 @@ header nav li a {
 #sidebar h2 {
     color: #fff;
     font-weight: normal;
+    padding-right: 22px;
 }
 
 #sidebar ul h2 {
@@ -115,6 +116,7 @@ header nav li a {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 37px;
     margin-bottom: 20px;
+    padding-right: 22px;
 }
 
 #contato ul li {
