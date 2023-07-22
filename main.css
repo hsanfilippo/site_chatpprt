@@ -62,9 +62,9 @@ header nav li a {
     padding: 15px;
     background-color:#38ce94;
     margin-bottom: 35px;
-    margin-left: 22px;
+    margin-left:22px;
     border-style: none;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #sidebar button:hover,
@@ -77,11 +77,11 @@ header nav li a {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    padding: 8px;
+    padding: 15px;
     background-color: #38ce94;
     border-style: none;
     cursor: pointer;
-    width: 65%;
+    width: 70%;
 }
 
 #sidebar ul {
@@ -101,7 +101,7 @@ header nav li a {
     color: black;
     font-size: 15px;
     padding: 6px;
-    width: 80%;
+    width: 100%;
 }
 
 #sidebar h2 {
@@ -117,12 +117,23 @@ header nav li a {
     font-size: 37px;
     margin-bottom: 20px;
     padding-right: 22px;
+    text-align: center;
 }
 
 #contato ul li {
-    display: inline;
-    margin-right: 6px;
+    display: block;
+    padding: 6px;
 }
+
+#contato ul li img {
+    margin-right: 15px;
+}
+
+#contato ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 #contato ul li img {
     width: 25px;
@@ -160,13 +171,27 @@ header nav li a {
 footer {
     background-color:#38ce94;
     float: right;
-    margin-top: 200px;
+    margin-top: 100px;
     width: 70%;
-    bottom: 0;
+    margin-bottom: 0;
 }
 
 footer p {
     text-align: center;
     padding: 12px;
     color: #fff;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#cadastro li p {
+    padding-right: 22px;
+    margin-left: 22px;
 }
